@@ -6,16 +6,28 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'sousuo';
-  src: url('../font/sousuot.eot');
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
   /* IE9*/
-  src: url('../font/sousuot.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/sousuo.woff') format('woff'), /* chrome、firefox */ url('../font/sousuo.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../font/sousuo.svg#sousuo') format('svg');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/iconfont.woff') format('woff'), /* chrome、firefox */ url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../font/iconfont.svg#iconfont') format('svg');
   /* iOS 4.1- */
 }
 * {
   padding: 0;
   margin: 0;
   font-family: "DongQing";
+}
+.star {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #e7e7e7;
+}
+.light {
+  color: #ffc600;
 }
 li {
   list-style: none;
@@ -87,7 +99,7 @@ a {
   font-weight: 100;
   border-right: 1px solid #ececec;
   background-color: #22b033;
-  font-family: "sousuo" !important;
+  font-family: "iconfont" !important;
   font-size: 16px;
   color: #ffffff;
   font-style: normal;
@@ -100,6 +112,10 @@ a {
   height: 41px;
   border-bottom: 1px solid #cccccc;
   background-color: #22b033;
+}
+.container .header .header_nav .selectorHolder {
+  width: 1000px;
+  margin: 0 auto;
 }
 .container .header .header_nav li {
   float: left;
@@ -125,11 +141,49 @@ a {
   background-color: #009933;
 }
 .container .index {
-  height: 379px;
   width: 1000px;
   margin: 0 auto;
   margin-top: 12px;
   margin-bottom: 78px;
+}
+.container .index .CourseTable {
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  border-top: 4px solid #49bf57;
+  border-collapse: collapse;
+}
+.container .index .CourseTable td {
+  text-align: center;
+  height: 53px;
+  line-height: 53px;
+  font-size: 13px;
+  color: #696868;
+}
+.container .index .CourseTable .CourseNum {
+  width: 89px;
+}
+.container .index .CourseTable .CourseName {
+  width: 501px;
+}
+.container .index .CourseTable .Teacher {
+  width: 127px;
+  color: #22b033;
+}
+.container .index .CourseTable .Passing {
+  width: 127px;
+}
+.container .index .CourseTable .Grade {
+  width: 154px;
+}
+.container .index .CourseTable .Details {
+  text-align: left;
+  padding-left: 26px;
+}
+.container .index .CourseTable .NameList td {
+  font-size: 12px;
+  color: #333;
+  height: 37px;
+  line-height: 37px;
 }
 .container .index .tipWords {
   width: 100%;
@@ -145,6 +199,18 @@ a {
 .container .index .tipWords .change {
   float: right;
   font-size: 13px;
+  cursor: pointer;
+  color: #aeadad;
+  font-weight: 100;
+}
+.container .index .tipWords .change .changeLogo {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  margin-right: 2px;
 }
 .container .index .courseBox {
   width: 100%;
@@ -170,7 +236,7 @@ a {
   color: #5d5d5d;
   font-weight: 200;
 }
-.container .index .courseBox li .star {
+.container .index .courseBox li .star-line {
   width: 141px;
   height: 20px;
 }
