@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'DongQing';
+  src: url('../font/DongQingHei.ttf');
+  src: url('../font/DongQingHei..eot?#font-spider') format('embedded-opentype'), url('../font/DongQingHei..woff') format('woff'), url('../font/DongQingHei..ttf') format('truetype'), url('../font/DongQingHei..svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sousuo';
+  src: url('../font/sousuot.eot');
+  /* IE9*/
+  src: url('../font/sousuot.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../font/sousuo.woff') format('woff'), /* chrome、firefox */ url('../font/sousuo.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../font/sousuo.svg#sousuo') format('svg');
+  /* iOS 4.1- */
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DongQing";
+}
+li {
+  list-style: none;
+}
+span {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.container {
+  width: auto;
+  position: relative;
+}
+.container .selectBtn {
+  width: 52px;
+  height: 18px;
+  box-shadow: 1px 1px 1px #d9d9d9;
+  line-height: 18px;
+  text-align: center;
+  color: #a9a8a8;
+  background-color: #e7e7e7;
+  font-size: 11px;
+  border-radius: 2px;
+  cursor: pointer;
+  float: right;
+}
+.container .header {
+  width: 100%;
+  height: 145px;
+}
+.container .header .title {
+  color: #179e27;
+  font-size: 28px;
+  font-weight: 400;
+  width: 1000px;
+  margin: 0 auto;
+  line-height: 104px;
+  overflow: hidden;
+}
+.container .header .title .titleWords {
+  float: left;
+}
+.container .header .title .searchBox {
+  float: right;
+  width: 276px;
+  height: 30px;
+  margin-top: 37px;
+  border-bottom: 1px solid #ececec;
+}
+.container .header .title .searchBox * {
+  float: left;
+}
+.container .header .title .searchBox .searchInput {
+  height: 28px;
+  width: 220px;
+  padding-left: 12px;
+  border: 1px solid #22b033;
+  border-right: none;
+}
+.container .header .title .searchBox .searchBtn {
+  display: inline-block;
+  width: 42px;
+  height: 30px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 100;
+  border-right: 1px solid #ececec;
+  background-color: #22b033;
+  font-family: "sousuo" !important;
+  font-size: 16px;
+  color: #ffffff;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container .header .header_nav {
+  width: 100%;
+  height: 41px;
+  border-bottom: 1px solid #cccccc;
+  background-color: #22b033;
+}
+.container .header .header_nav li {
+  float: left;
+  width: 99px;
+  height: 100%;
+  line-height: 41px;
+  text-align: center;
+  cursor: pointer;
+}
+.container .header .header_nav li a {
+  display: inline-block;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #333;
+  font-size: 14px;
+}
+.container .header .header_nav li:hover {
+  background-color: #009933;
+}
+.container .header .header_nav .active {
+  background-color: #009933;
+}
+.container .index {
+  height: 379px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 78px;
+}
+.container .index .tipWords {
+  width: 100%;
+  padding: 18px 0;
+  font-size: 15px;
+  height: 15px;
+  line-height: 15px;
+  color: #6b6b6b;
+}
+.container .index .tipWords .recommend {
+  float: left;
+}
+.container .index .tipWords .change {
+  float: right;
+  font-size: 13px;
+}
+.container .index .courseBox {
+  width: 100%;
+  overflow: hidden;
+}
+.container .index .courseBox li {
+  border: 1px solid #d1d1d1;
+  border-top: 4px solid #49bf57;
+  width: 274px;
+  height: 108px;
+  padding: 21px;
+  float: left;
+  margin-bottom: 24px;
+}
+.container .index .courseBox li .Name {
+  font-weight: 600;
+  font-size: 12px;
+  color: #333;
+}
+.container .index .courseBox li .details {
+  width: 207px;
+  font-size: 13px;
+  color: #5d5d5d;
+  font-weight: 200;
+}
+.container .index .courseBox li .star {
+  width: 141px;
+  height: 20px;
+}
+.container .index .courseBox li span {
+  float: left;
+}
+.container .index .courseBox li p {
+  line-height: 20px;
+  display: inline-block;
+  width: 100%;
+}
+.container .index .courseBox .center {
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.container .footer {
+  height: 61px;
+  padding: 19px;
+  width: auto;
+  background-color: #efefef;
+}
+.container .footer p {
+  font-size: 12px;
+  color: #8a8a8a;
+  text-align: center;
+  line-height: 20px;
+  font-weight: normal;
+}
+.container .footer p a {
+  color: #8a8a8a;
+}
