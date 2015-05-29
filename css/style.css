@@ -43,6 +43,89 @@ a {
   width: auto;
   position: relative;
 }
+.container .mask {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #000000;
+  display: none;
+}
+.container .teacher_infor {
+  width: 1000px;
+  height: 440px;
+  background: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 10%;
+  display: none;
+}
+.container .teacher_infor .close {
+  float: right;
+  margin: 14px 16px;
+  cursor: pointer;
+  color: #959595;
+}
+.container .teacher_infor h5 {
+  text-align: center;
+  margin: 28px 0;
+  font-weight: 300;
+}
+.container .teacher_infor .infor_holder {
+  margin: 0 auto;
+  width: 830px;
+  height: 320px;
+}
+.container .teacher_infor .infor_holder .tf {
+  width: 165px;
+  height: 100%;
+  float: left;
+}
+.container .teacher_infor .infor_holder .tf .photo {
+  height: 204px;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  background: url("../images/tp.jpg") no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 8px;
+}
+.container .teacher_infor .infor_holder .tf p {
+  width: 100%;
+  height: 20px;
+  line-height: 25px;
+}
+.container .teacher_infor .infor_holder .tf span {
+  float: left;
+}
+.container .teacher_infor .infor_holder .tf .name {
+  color: #4dcf5b;
+  font-size: 13px;
+}
+.container .teacher_infor .infor_holder .tf .name_details {
+  width: 110px;
+  color: #333;
+  font-size: 14px;
+}
+.container .teacher_infor .infor_holder .cf {
+  width: 645px;
+  float: right;
+  border: 1px solid #d1d1d1;
+  border-top: 4px solid #49bf57;
+  border-collapse: collapse;
+}
+.container .teacher_infor .infor_holder .cf td {
+  height: 52px;
+  text-align: center;
+  font-size: 13px;
+  color: #494949;
+}
+.container .teacher_infor .infor_holder .cf .name td {
+  height: 38px;
+  font-size: 11px;
+}
 .container .selectBtn {
   width: 52px;
   height: 18px;
@@ -168,6 +251,7 @@ a {
 .container .index .CourseTable .Teacher {
   width: 127px;
   color: #22b033;
+  cursor: pointer;
 }
 .container .index .CourseTable .Passing {
   width: 127px;
