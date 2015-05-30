@@ -43,6 +43,60 @@ a {
   width: auto;
   position: relative;
 }
+.container .login_box {
+  width: 507px;
+  height: 228px;
+  background: #ffffff;
+  position: fixed;
+  top: 28%;
+  box-shadow: 2px 2px 3px #676767;
+}
+.container .login_box .login_close {
+  float: right;
+  margin: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  cursor: pointer;
+  color: #959595;
+}
+.container .login_box p {
+  text-align: center;
+}
+.container .login_box p > input {
+  width: 210px;
+  height: 30px;
+  padding-left: 13px;
+  border: 1px solid #c2c2c2;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.container .login_box .login_logo {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #959595;
+  margin-right: 11px;
+}
+.container .login_box .loginBtn {
+  display: block;
+  width: 189px;
+  height: 30px;
+  background: #22b033;
+  border: none;
+  color: #ffffff;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 13px;
+}
+.container .login_box .login_title {
+  color: #5d5d5d;
+  font-size: 16px;
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
 .container .mask {
   width: 100%;
   height: 100%;
@@ -52,7 +106,6 @@ a {
   left: 0;
   top: 0;
   background: #000000;
-  display: none;
 }
 .container .teacher_infor {
   width: 1000px;
@@ -143,13 +196,29 @@ a {
   width: 100%;
   height: 145px;
 }
+.container .header .login {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 11px;
+  color: #a9a9a9;
+  border-top: 4px solid #efefef;
+  padding-top: 6px;
+}
+.container .header .login .welcom {
+  float: left;
+}
+.container .header .login .login_btn {
+  float: right;
+  color: #22b033;
+  cursor: pointer;
+}
 .container .header .title {
   color: #179e27;
   font-size: 28px;
   font-weight: 400;
   width: 1000px;
   margin: 0 auto;
-  line-height: 104px;
+  line-height: 81px;
   overflow: hidden;
 }
 .container .header .title .titleWords {
