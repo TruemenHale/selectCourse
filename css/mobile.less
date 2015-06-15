@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {font-family: 'mobile';
+  src: url('../font/mobile.eot'); /* IE9*/
+  src: url('../font/mobile.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/mobile.woff') format('woff'), /* chrome、firefox */
+  url('../font/mobile.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../font/mobile.svg#mobile') format('svg'); /* iOS 4.1- */
+}
+.container{
+  width: auto;
+  span{
+    display: inline-block;
+  }
+  .mobile{
+    font-family:"mobile" !important;
+    font-size:13px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .header{
+    width: 100%;
+    background-color: #22b033;
+    color: #ffffff;
+    font-size: 26px;
+    .left-row{
+      margin-left:5.83%;
+    }
+    .Appname{
+      margin-left:5.83%;
+    }
+  }
+  .index{
+    width: 88.611111%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 29px;
+    .btn{
+      width: 23.824%;
+      height: 30px;
+      background-color: #5fc835;
+      color: #ffffff;
+      line-height: 30px;
+      font-size: 13px;
+      text-align: center;
+      float: left;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}
+@media (max-width:420px) {
+    .container .header{
+      font-size: 20px;
+    }
+  .container .header .left-row{
+      font-size: 18px;
+    }
+}
